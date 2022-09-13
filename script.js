@@ -38,11 +38,19 @@ forth.innerHTML = `
     <h2 class="jerseynumber">${centralBack2.jerseyNumber}</h2>
     <h3 class="position">${centralBack2.position}</h3>
 `
-var leftBack = new Club("De Gea","5","lB")
+var leftBack = new Club("De Gea","5","LB")
 console.log(fifth)
 fifth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
     <h3 class="playername">${leftBack.playerName}</h3>
     <h2 class="jerseynumber">${leftBack.jerseyNumber}</h2>
     <h3 class="position">${leftBack.position}</h3>
+`
+var centralMid1 = new Club("De Gea","6","CM")
+console.log(sixth)
+sixth.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${centralMid1.playerName}</h3>
+    <h2 class="jerseynumber">${centralMid1.jerseyNumber}</h2>
+    <h3 class="position">${centralMid1.position}</h3>
 `
