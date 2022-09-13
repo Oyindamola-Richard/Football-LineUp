@@ -1,0 +1,7 @@
+.gen-div{
+    background-image: url(/img/field.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
