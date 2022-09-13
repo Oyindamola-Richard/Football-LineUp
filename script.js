@@ -22,3 +22,11 @@ second.innerHTML = `
     <h2 class="jerseynumber">${rightBack.jerseyNumber}</h2>
     <h3 class="position">${rightBack.position}</h3>
 `
+var centralBack1 = new Club("De Gea","3","CB")
+console.log(third)
+third.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${centralBack1.playerName}</h3>
+    <h2 class="jerseynumber">${centralBack1.jerseyNumber}</h2>
+    <h3 class="position">${centralBack1.position}</h3>
+`
