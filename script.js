@@ -38,3 +38,11 @@ forth.innerHTML = `
     <h2 class="jerseynumber">${centralBack2.jerseyNumber}</h2>
     <h3 class="position">${centralBack2.position}</h3>
 `
+var leftBack = new Club("De Gea","5","lB")
+console.log(fifth)
+fifth.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${leftBack.playerName}</h3>
+    <h2 class="jerseynumber">${leftBack.jerseyNumber}</h2>
+    <h3 class="position">${leftBack.position}</h3>
+`
