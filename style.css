@@ -5,3 +5,7 @@
     background-size: contain;
     height: 100vh;
 }
+.display{
+    display: flex;
+    justify-content: center;
+}
