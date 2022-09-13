@@ -62,3 +62,11 @@ seventh.innerHTML = `
     <h2 class="jerseynumber">${centralMid2.jerseyNumber}</h2>
     <h3 class="position">${centralMid2.position}</h3>
 `
+var centralMid3 = new Club("De Gea","8","CM")
+console.log(eight)
+eight.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${centralMid3.playerName}</h3>
+    <h2 class="jerseynumber">${centralMid3.jerseyNumber}</h2>
+    <h3 class="position">${centralMid3.position}</h3>
+`
