@@ -86,3 +86,11 @@ tenth.innerHTML = `
     <h2 class="jerseynumber">${centralFoward.jerseyNumber}</h2>
     <h3 class="position">${centralFoward.position}</h3>
 `
+var leftFoward = new Club("De Gea","11","LF")
+console.log(eleventh)
+eleventh.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${leftFoward.playerName}</h3>
+    <h2 class="jerseynumber">${leftFoward.jerseyNumber}</h2>
+    <h3 class="position">${leftFoward.position}</h3>
+`
