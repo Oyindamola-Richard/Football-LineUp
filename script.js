@@ -14,7 +14,7 @@ first.innerHTML = `
     <h2 class="jerseynumber">${keeper.jerseyNumber}</h2>
     <h3 class="position">${keeper.position}</h3>
 `
-var rightBack = new Club("De Gea","2","RB")
+var rightBack = new Club("Dalot","20","RB")
 console.log(second)
 second.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -22,7 +22,7 @@ second.innerHTML = `
     <h2 class="jerseynumber">${rightBack.jerseyNumber}</h2>
     <h3 class="position">${rightBack.position}</h3>
 `
-var centralBack1 = new Club("De Gea","3","CB")
+var centralBack1 = new Club("Varane","19","CB")
 console.log(third)
 third.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -30,7 +30,7 @@ third.innerHTML = `
     <h2 class="jerseynumber">${centralBack1.jerseyNumber}</h2>
     <h3 class="position">${centralBack1.position}</h3>
 `
-var centralBack2 = new Club("De Gea","4","CB")
+var centralBack2 = new Club("Martinez","6","CB")
 console.log(forth)
 forth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -38,7 +38,7 @@ forth.innerHTML = `
     <h2 class="jerseynumber">${centralBack2.jerseyNumber}</h2>
     <h3 class="position">${centralBack2.position}</h3>
 `
-var leftBack = new Club("De Gea","5","LB")
+var leftBack = new Club("Malacia","12","LB")
 console.log(fifth)
 fifth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
