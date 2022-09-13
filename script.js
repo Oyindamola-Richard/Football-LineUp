@@ -46,7 +46,7 @@ fifth.innerHTML = `
     <h2 class="jerseynumber">${leftBack.jerseyNumber}</h2>
     <h3 class="position">${leftBack.position}</h3>
 `
-var centralMid1 = new Club("De Gea","6","CM")
+var centralMid1 = new Club("Fernando","8","CM")
 console.log(sixth)
 sixth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -54,7 +54,7 @@ sixth.innerHTML = `
     <h2 class="jerseynumber">${centralMid1.jerseyNumber}</h2>
     <h3 class="position">${centralMid1.position}</h3>
 `
-var centralMid2 = new Club("De Gea","7","CM")
+var centralMid2 = new Club("McTominay","39","CM")
 console.log(seventh)
 seventh.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -62,7 +62,7 @@ seventh.innerHTML = `
     <h2 class="jerseynumber">${centralMid2.jerseyNumber}</h2>
     <h3 class="position">${centralMid2.position}</h3>
 `
-var centralMid3 = new Club("De Gea","8","CM")
+var centralMid3 = new Club("Erikson","14","CM")
 console.log(eight)
 eight.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -70,7 +70,7 @@ eight.innerHTML = `
     <h2 class="jerseynumber">${centralMid3.jerseyNumber}</h2>
     <h3 class="position">${centralMid3.position}</h3>
 `
-var leftFoward = new Club("De Gea","9","LF")
+var leftFoward = new Club("Antony","21","LF")
 console.log(ninth)
 ninth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -78,7 +78,7 @@ ninth.innerHTML = `
     <h2 class="jerseynumber">${leftFoward.jerseyNumber}</h2>
     <h3 class="position">${leftFoward.position}</h3>
 `
-var centralFoward = new Club("De Gea","10","CF")
+var centralFoward = new Club("Rashford","10","CF")
 console.log(tenth)
 tenth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
@@ -86,7 +86,7 @@ tenth.innerHTML = `
     <h2 class="jerseynumber">${centralFoward.jerseyNumber}</h2>
     <h3 class="position">${centralFoward.position}</h3>
 `
-var leftFoward = new Club("De Gea","11","LF")
+var leftFoward = new Club("Sancho","25","LF")
 console.log(eleventh)
 eleventh.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
