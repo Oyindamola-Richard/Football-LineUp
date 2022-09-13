@@ -70,11 +70,19 @@ eight.innerHTML = `
     <h2 class="jerseynumber">${centralMid3.jerseyNumber}</h2>
     <h3 class="position">${centralMid3.position}</h3>
 `
-var centralMid3 = new Club("De Gea","9","LF")
+var leftFoward = new Club("De Gea","9","LF")
 console.log(ninth)
 ninth.innerHTML = `
     <img src="/img/back.png" alt="" srcset="" height="100px">
-    <h3 class="playername">${centralMid3.playerName}</h3>
-    <h2 class="jerseynumber">${centralMid3.jerseyNumber}</h2>
-    <h3 class="position">${centralMid3.position}</h3>
+    <h3 class="playername">${leftFoward.playerName}</h3>
+    <h2 class="jerseynumber">${leftFoward.jerseyNumber}</h2>
+    <h3 class="position">${leftFoward.position}</h3>
+`
+var centralFoward = new Club("De Gea","10","CF")
+console.log(tenth)
+tenth.innerHTML = `
+    <img src="/img/back.png" alt="" srcset="" height="100px">
+    <h3 class="playername">${centralFoward.playerName}</h3>
+    <h2 class="jerseynumber">${centralFoward.jerseyNumber}</h2>
+    <h3 class="position">${centralFoward.position}</h3>
 `
